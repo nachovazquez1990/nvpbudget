@@ -1,0 +1,17 @@
+.item td{
+    padding: 1rem;
+    font-size: 0.8rem;
+    background-color: rgb(214, 214, 214);
+}
+.item td:first-of-type{
+    border-radius: 10px 0 0 10px;
+}
+.item td:last-of-type{
+    border-radius: 0 10px 10px 0;
+}
+.td_status{
+    cursor: pointer;
+}
+.suspended{
+    background-color: red;
+}

@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+  }
+.features{
+    margin:0 1rem;
+    width: 75%;
+}
+.features table{
+    width: 100%;
+    border-collapse:separate; 
+    border-spacing: 0 10px;
+}
+.features th{
+    text-align: start;
+    padding: 1rem;
+}
+.feature_form{
+    background-color: rgb(113, 198, 255);
+}
+.feature_form input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+
+    width: 95%;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+}
+.feature_form input:focus{
+    outline: none;
+}
+.feature_form input[type=submit] {
+    width: 100%;
+}
+.feature_form td{
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+.feature_form td:first-of-type{
+    border-radius: 10px 0 0 10px;
+}
+.feature_form td:last-of-type{
+    border-radius: 0 10px 10px 0;
+}

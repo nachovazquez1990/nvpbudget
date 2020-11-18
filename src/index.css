@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* RESET */
+
+*{padding:0;margin:0;box-sizing:border-box;}
+ol, ul, li {list-style:none; text-decoration:inherit;}
+a{color:inherit; text-decoration:inherit;}
+table {	border-collapse: collapse;border-spacing: 0;}
+img{width:100%; height:auto; vertical-align: bottom;}
+body{font-family: 'Montserrat', sans-serif;}
